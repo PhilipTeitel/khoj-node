@@ -6,7 +6,7 @@ const process = require('node:process')
 const abortController = new AbortController()
 const abortSignal = abortController.signal
 
-function khojProcess(khojPath) {
+function khojProcess(khojPath, env) {
 	const khojProcess = spawn(khojPath, [
 		'--host=0.0.0.0',
 		'--port=43210',

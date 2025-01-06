@@ -1,10 +1,19 @@
 {
   "name": "khoj-node",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A script automating khoj startup",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "private": true,
+  "keywords": [
+    "khoj",
+    "node"
+  ],
+  "author": "Philip Teitel",
+  "license": "ISC",
+  "dependencies": {
+    "docker-modem": "^5.0.5"
+  }
 }
